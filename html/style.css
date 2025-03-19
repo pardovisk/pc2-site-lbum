@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.conteiner{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteiner img{ 
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+    text-align: center;
+}
+
+.conteiner img:haver {
+    width: 25%;
+}
+
+div{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+div img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+    text-align: center;
+}
